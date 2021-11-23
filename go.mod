@@ -13,10 +13,10 @@ require (
 	github.com/gobuffalo/envy v1.8.1
 	github.com/gobuffalo/fizz v1.13.1
 	github.com/gobuffalo/flect v0.2.4
-	github.com/gobuffalo/genny/v2 v2.0.5
-	github.com/gobuffalo/logger v1.0.3
+	github.com/gobuffalo/genny/v2 v2.0.8
+	github.com/gobuffalo/logger v1.0.6
 	github.com/gobuffalo/nulls v0.2.0
-	github.com/gobuffalo/packd v1.0.0
+	github.com/gobuffalo/packd v1.0.1
 	github.com/gobuffalo/packr/v2 v2.8.1
 	github.com/gobuffalo/plush/v4 v4.1.9
 	github.com/gobuffalo/validate/v3 v3.3.1
