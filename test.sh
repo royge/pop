@@ -32,7 +32,7 @@ function cleanup {
   echo "Cleanup resources..."
   docker-compose down
   rm tsoda
-  find ./sql_scripts/sqlite -name *.sqlite* -delete
+  # find ./sql_scripts/sqlite -name *.sqlite* -delete
 }
 # defer cleanup, so it will be executed even after premature exit
 trap cleanup EXIT
@@ -68,7 +68,8 @@ function debug_test {
     dlv test github.com/gobuffalo/pop
 }
 
-dialects=("postgres" "cockroach" "mysql" "sqlite")
+# dialects=("postgres" "cockroach" "mysql" "sqlite")
+dialects=("postgres")
 
 for dialect in "${dialects[@]}" ; do
   if [ $DEBUG = 'NO' ]; then
